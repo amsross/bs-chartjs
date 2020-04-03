@@ -1,0 +1,11 @@
+{
+  "bs-dependencies": [],
+  "name": "bs-chartjs",
+  "namespace": true,
+  "package-specs": {"in-source": false, "module": "commonjs"},
+  "refmt": 3,
+  "sources": {"dir": "src", "subdirs": true},
+  "suffix": ".bs.js",
+  "version": "0.1.0",
+  "warnings": {"error": "+101", "number": "-44"}
+}
