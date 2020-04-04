@@ -1,1 +1,1 @@
-# bs-chart.js [![Build Status](https://travis-ci.org/amsross/bs-chartjs.svg?branch=master)](https://travis-ci.org/amsross/bs-chartjs)
+# bs-chart.js [![Build Status](https://travis-ci.org/amsross/bs-chartjs.svg?branch=master)](https://travis-ci.org/amsross/bs-chartjs) [![npm](https://img.shields.io/npm/v/@amsross/bs-chartjs.svg)](https://npmjs.org/@amsross/bs-json)
