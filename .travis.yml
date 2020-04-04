@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - lts/*
+install: npm ci
+script: npm run build
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        script: npm run semantic-release
