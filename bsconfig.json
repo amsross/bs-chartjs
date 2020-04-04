@@ -1,7 +1,6 @@
 {
   "bs-dependencies": [],
   "name": "@amsross/bs-chartjs",
-  "namespace": "bs-chartjs",
   "package-specs": {"in-source": false, "module": "commonjs"},
   "refmt": 3,
   "sources": {"dir": "src", "subdirs": true},
