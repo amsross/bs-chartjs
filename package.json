@@ -14,7 +14,7 @@
     "reasonml"
   ],
   "license": "MIT",
-  "name": "bs-chartjs",
+  "name": "@amsross/bs-chartjs",
   "scripts": {
     "build": "bsb -make-world",
     "clean": "bsb -clean-world",
