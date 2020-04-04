@@ -8,5 +8,6 @@ jobs:
     - stage: release
       node_js: lts/*
       deploy:
+        skip_cleanup: true`
         provider: script
         script: npm run semantic-release
