@@ -30,7 +30,7 @@ module Data = {
   [@bs.obj] external make: (~datasets: array(Dataset.t), unit) => t;
 };
 
-module Options = {
+module Config = {
   module Options = {
     module Scales = {
       module Axis = {
@@ -167,6 +167,6 @@ type ctx;
 
 [@bs.send] external getContext: (Dom.element, string) => ctx = "getContext";
 
-[@bs.new] [@bs.module] external chart': (ctx, Options.t) => t = "chart.js";
-let make: (Dom.element, Options.t) => t =
+[@bs.new] [@bs.module] external chart': (ctx, Config.t) => t = "chart.js";
+let make: (Dom.element, Config.t) => t =
   canvas => canvas->getContext("2d")->chart';

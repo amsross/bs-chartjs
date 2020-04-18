@@ -30,7 +30,7 @@ module Data: {
   [@bs.obj] external make: (~datasets: array(Dataset.t), unit) => t;
 };
 
-module Options: {
+module Config: {
   module Options: {
     module Scales: {
       module Axis: {
@@ -164,4 +164,4 @@ module Options: {
 
 type t;
 
-let make: (Dom.element, Options.t) => t;
+let make: (Dom.element, Config.t) => t;
