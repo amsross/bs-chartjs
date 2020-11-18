@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "bs-platform": "^7.2.2",
-    "semantic-release": "^17.0.4"
+    "semantic-release": "^17.2.3"
   },
   "keywords": [
     "bucklescript",
