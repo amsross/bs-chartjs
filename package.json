@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "chart.js": "^2.9.3"
+    "chart.js": "^2.9.4"
   },
   "devDependencies": {
     "bs-platform": "^7.2.2",
